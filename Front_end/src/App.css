@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500;600;700&display=swap');
+
+
+body{
+    font-family: 'Josefin Slab', serif;
+}
+.divider{
+    width: 150px;
+    height: 2px;
+    background-color: #2E2B2B;
+    border-radius: 5px;
+}
+.custom-shadow{
+    box-shadow: 0 0  7px rgba(0,0,0,0.3);
+}
+.textContent{
+    position: absolute;
+    z-index: 10;
+    bottom: 5px;
+    right: 5px;
+    color: black;
+    background: #a7bcb9;
+    transition: 0.3s ;
+    display: none;
+}
+.content:hover .textContent{
+
+    display: flex;
+}
+.content{
+    transition: 0.3s;
+}
+ 
